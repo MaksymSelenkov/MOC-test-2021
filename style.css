@@ -1,3 +1,21 @@
 .mapBefore, .mapAfter {
     display: flex;
 }
+.blue {
+    background-color: blue; 
+}
+
+.red {
+    background-color: red; 
+}
+
+.green {
+    background-color: green; 
+}
+
+.box {
+    width: 40px; 
+    height: 40px; 
+    border: 2px solid gray; 
+    margin: 2px;
+}

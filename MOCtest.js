@@ -3,17 +3,17 @@ const arrayBefore = pandemicStartMap.split('');
 
 function showBlue() {
      const blueBox = document.createElement('div');
-     blueBox.style.cssText = "background-color: blue; width: 40px; height: 40px; border: 2px solid gray; margin: 2px;";
+     blueBox.classList.add('blue', 'box');
      return blueBox;
 }
 function showGreen() {
      const greenBox = document.createElement('div');
-     greenBox.style.cssText = "background-color: green; width: 40px; height: 40px; border: 2px solid gray; margin: 2px;";
+     greenBox.classList.add('green', 'box');
      return greenBox;
 }
 function showRed() {
      const redBox = document.createElement('div');
-     redBox.style.cssText = "background-color: red; width: 40px; height: 40px; border: 2px solid gray; margin: 2px;";
+     redBox.classList.add('red', 'box');
      return redBox;
 }
 
